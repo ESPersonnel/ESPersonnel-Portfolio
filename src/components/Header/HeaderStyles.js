@@ -7,7 +7,7 @@ export const Container = styled.div`
   grid-template-rows: 1fr;
   grid-column-gap: 2rem;
   padding: 1rem;
-  padding-top: 2rem;
+  padding-top: 2.5rem;
 
   @media ${(props) => props.theme.breakpoints.sm} {
     display: grid;
@@ -48,18 +48,21 @@ export const Div3 = styled.div`
 // Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
-  line-height: 32px;
+  line-height: 52px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+  
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
+
   }
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
 `;
+
 
 /// DropDown Contact
 export const ContactDropDown = styled.button`
@@ -113,12 +116,10 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 export const SocialIcons = styled.a`
 transition: 0.3s ease;
 color: white;
-border-radius: 50px;
+border-radius: 5;
   padding: 8px;
 &:hover {
-    background-color: #212d45;
     transform: scale(1.2);
-    cursor: pointer;
-    
+    cursor: pointer;  
   }
 `
