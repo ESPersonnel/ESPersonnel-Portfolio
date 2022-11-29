@@ -15,7 +15,9 @@ const Hero = (props) => (
         <SectionText>
         I am a Fullstack Software Developer. I am dedicated to researching and building products that are relevant. Reach out and we can work together to build something great.
         </SectionText>
-        <Button onClick={props.handleClick}>Resume</Button>
+        <a href='https://espersonnel.showwcase.com/' target='_blank'>
+          <Button onClick={props.handleClick}>Resume</Button>
+        </a>
       </LeftSection>
     </Section>
   </>
