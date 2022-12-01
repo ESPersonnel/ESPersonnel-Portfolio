@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Moringa Hackerank',
     description: "Hackerank clone for Moringa is a software platform much like Hackerrank, which could be used to assess the technical skills of software development students. The platform has a multi-user authentication for the Technical Mentors and the Students.",
-      image: '/images/1.png',
+      image: '/images/moringa-hackerank.png',
       tags: ['React', 'Ruby on Rails', 'PostgreSQL', 'TailwindCSS'],
     source: 'https://github.com/TheEmerald001/Moringa-Hackerank',
     visit: 'https://github.com/TheEmerald001/Moringa-Hackerank',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'TurfZone',
     description:"TurfZone is a web application for booking sports turf in an easy and efficient way.",
-    image: '/images/2.png',
+    image: '/images/turfzone.png',
     tags: ['React', 'Ruby on Rails', 'PostgreSQL', 'Active Admin'],
     source: 'http://turfzone.vercel.app/',
     visit: 'https://github.com/DennohKim/TurfZone',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Skye Weather App',
     description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-      image: '/images/3.jpg',
+      image: '/images/skye-weather-app-2.png',
       tags: ['React', 'Javascript', 'CSS', 'OpenWeatherMap API'],
     source: 'http://skye-weather-app.vercel.app/',
     visit: 'https://github.com/ESPersonnel/Skye-Weather-App',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'Skye Weather App',
     description: "A web application that displays the current weather for a user-defined location. This application uses the OpenWeatherMap API to retrieve the current weather.",
-    image: '/images/4.jpg',
+    image: '/images/skye-weather-app.png',
     tags: ['HTML', 'CSS', 'Javascript', 'OpenWeatherMap API'],
     source: 'http://skye-weather.vercel.app/',
     visit: 'https://github.com/ESPersonnel/phase-1-project',

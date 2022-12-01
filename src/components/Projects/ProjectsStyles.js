@@ -24,9 +24,14 @@ row-gap: 3rem;
 `
 export const BlogCard = styled.div`
   border-radius: 10px;
-  box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  &:hover {
+    transition: all 0.5s ease-in-out;
+    box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
+
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -89,15 +94,16 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-color:#d4c0c0;
+color: #d4ffc0;
 font-size: 1.6rem;
-padding:1rem 1.5rem;
-background: #6b3030;
-border-radius: 15px;
-transition: 0.5s;
+font-weight: 500;
+padding: 1rem 2.5rem;
+background: ${({ alt }) => alt ? 'linear-gradient(270deg, #ff622e 0%, #B133FF 100%)' : 'linear-gradient(270deg, #00DBD8 0%, #B133FF 100%)'};
+border-radius: 32px;
+transition: 0.5s ease;
 &:hover{
-  background: #801414;
-
+  background: ${({ alt }) => alt ? 'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' : 'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+  
 }
 `;
 
