@@ -44,3 +44,8 @@ export const TimeLineData = [
   { year: 2021, text: 'Interned at Kenya Power and Lighting Co.', },
   { year: 2022, text: 'Joined Moringa School', },
 ];
+
+// https://ibb.co/6XGw6wW
+// https://ibb.co/80jBS17
+// https://ibb.co/KGzBznC
+// https://ibb.co/SX28G6P

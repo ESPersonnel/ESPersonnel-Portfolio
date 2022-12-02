@@ -1,12 +1,12 @@
 ## Personal Portfolio
 
-### [Live Site](https://github.com/ESPersonnel/ESPersonnel-Portfolio)
+### [Live Site](https://espersonnel.github.io/ESPersonnel-Portfolio/)
 
 ![Portfolio Website](/public/images/home_screenshot.png)
 
-This is a code repository for the corresponding video tutorial. Your portfolio is your resume and your business card.
+    Author: Wycliffe Ndiba
 
-In this video, we will create a full Personal Development Portfolio. We're going to use React and Next.js.
+This is my personal portfolio website. It is a single page application built with React and hosted on GitHub Pages.
 
 Setup:
 - run ```npm i && npm start```
